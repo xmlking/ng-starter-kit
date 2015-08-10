@@ -22,7 +22,6 @@ dist
 .idea
 
 ## Not Ready
-README.md
 TODO.md
 service-worker.js
 
