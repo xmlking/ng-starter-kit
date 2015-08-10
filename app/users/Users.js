@@ -1,11 +1,11 @@
 import angular from 'angular';
 
 // Load the custom app ES6 modules
-import UsersController from 'app/users/UsersController';
-import UsersService from 'app/users/UsersDataservice';
+import UsersController from './UsersController';
+import UsersService from './UsersDataservice';
 
-import browserUsersTpl from 'app/users/browserUsers.tpl';
-import contactSheetTpl from 'app/users/contactSheet.tpl';
+import browserUsersTpl from './browserUsers.html!text';
+import contactSheetTpl from './contactSheet.html!text';
 
 // Define the Angular 'users' module
 

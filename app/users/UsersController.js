@@ -1,4 +1,4 @@
-import contactSheetTpl from 'app/users/contactSheet.tpl';
+import contactSheetTpl from './contactSheet.html!text';
 
 /**
  * Main App Controller for the Angular Material Starter App

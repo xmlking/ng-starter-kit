@@ -7,11 +7,11 @@ import 'angular-animate';
 // Load the Angular Material CSS associated with ngMaterial
 // then load the main.css to provide overrides, etc.
 import 'angular-material/angular-material.css!';
-import 'app/app.css!';
+import './app.css!';
 
-const URL_AVATAR_ICONS = 'app/assets/svg/avatars.svg';
-const URL_ICON_MENU = 'app/assets/svg/menu.svg';
-const URL_ICON_SHARE = 'app/assets/svg/share.svg';
+const URL_AVATAR_ICONS = './assets/svg/avatars.svg';
+const URL_ICON_MENU = './assets/svg/menu.svg';
+const URL_ICON_SHARE = './assets/svg/share.svg';
 
 // This module must be declared in app.js, but we try to keep that file pretty clean
 // so I've abstracted the meat into this file instead. It is important to also declare

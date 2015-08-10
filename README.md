@@ -1,14 +1,11 @@
-# SystemJS Material Start
+# NG Starter Kit
 
-This project is a clone of [ES6 version](https://github.com/angular/material-start/tree/es6),
-but placed into the [generator-systemjs](https://github.com/lookfirst/generator-systemjs/) 
-structure as an example application.
 
 To use this:
 
-* `git clone https://github.com/lookfirst/systemjs-material-start.git`
-* `cd systemjs-material-start`
+* `git clone https://github.com/xmlking/ng-starter-kit.git`
+* `cd ng-starter-kit`
 * `npm install -g jspm gulp`
 * `npm install`
-* `gulp run`
-* `http://localhost:9000`
+* `gulp serve`
+* `http://localhost:3000`

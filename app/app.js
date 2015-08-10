@@ -1,9 +1,9 @@
 import angular from 'angular';
 
-import materialModule from 'app/materialModule';
+import materialModule from './materialModule';
 
 import router from 'oclazyload-systemjs-router';
-import futureRoutes from 'app/routes.json!';
+import futureRoutes from './routes.json!';
 
 var appModule = angular.module('app', [materialModule.name]);
 
@@ -20,7 +20,7 @@ appModule.config(function($locationProvider, $httpProvider, $urlRouterProvider) 
 
 angular.element(document).ready(function() {
 	return angular.bootstrap(document.body, [appModule.name], {
-		strictDi: true
+		//strictDi: true //TODO
 	});
 });
 
