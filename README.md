@@ -1,6 +1,5 @@
 # NG Starter Kit
 
-
 To use this:
 
 * `git clone https://github.com/xmlking/ng-starter-kit.git`
