@@ -1,5 +1,7 @@
 # NG Starter Kit
 
+Angular 1.x, JSPM,  Material Start kit.
+
 To use this:
 
 * `git clone https://github.com/xmlking/ng-starter-kit.git`

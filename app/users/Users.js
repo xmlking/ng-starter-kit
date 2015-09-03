@@ -5,19 +5,18 @@ import UsersController from './UsersController';
 import UsersService from './UsersDataservice';
 
 import browserUsersTpl from './browserUsers.html!text';
-import contactSheetTpl from './contactSheet.html!text';
 
 // Define the Angular 'users' module
 
 export default angular
-	.module('users', [browserUsersTpl.name, contactSheetTpl.name])
+	.module('users', [])
 	.service('usersService', UsersService)
 	.config(($stateProvider) => {
 
 		$stateProvider
 			.state('users', {
 				url: '/',
-				templateUrl: browserUsersTpl.name,
+				template: browserUsersTpl,
 				controller: UsersController,
 				controllerAs: 'ul'
 			});

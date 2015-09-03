@@ -66,7 +66,7 @@ function AppController(usersService, $mdSidenav, $mdBottomSheet, $scope, $log) {
 
 		$mdBottomSheet.show({
 			parent: angular.element(document.getElementById('content')),
-			templateUrl: contactSheetTpl.name,
+      template: contactSheetTpl,
 			controller: ['$mdBottomSheet', UserSheetController],
 			controllerAs: 'vm',
 			bindToController: true,
