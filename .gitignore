@@ -1,8 +1,12 @@
 ### https://github.com/github/gitignore
 
+## Project
+NOTES.md
 
 ## TSD/Typings
 typings
+!typings/tsd.d.ts
+!typings/app.d.ts
 
 ## Direnv
 .envrc
@@ -16,13 +20,12 @@ jspm_packages
 ## Dist
 dist
 .tmp
-*.bak.*
 
 ## IDE
 .idea
 
 ## Not Ready
-TODO.md
+NOTES.md
 service-worker.js
 
 ## Node

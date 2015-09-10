@@ -1,0 +1,36 @@
+{
+  "version": "1.6.1",
+  "compileOnSave": false,
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "removeComments": true,
+    "noLib": false,
+    "preserveConstEnums": true,
+    "listFiles": true,
+    "newLine": "LF",
+
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "declaration": true,
+    "target": "es5",
+    "module": "commonjs",
+    "rootDir": ".",
+    "sourceMap": true,
+    "sourceRoot": ".",
+    "outDir": ".tmp"
+  },
+  "filesGlob": [
+    "app/**/*.ts",
+    "!jspm_packages/**/*.ts",
+    "!node_modules/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "jspm_packages"
+  ],
+  "files": [
+    "typings/tsd.d.ts",
+    "typings/app.d.ts",
+    "app/main.ts"
+  ]
+}
