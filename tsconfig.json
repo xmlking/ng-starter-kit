@@ -8,7 +8,6 @@
     "preserveConstEnums": true,
     "listFiles": true,
     "newLine": "LF",
-
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "declaration": true,

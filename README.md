@@ -1,6 +1,6 @@
 # NG Starter Kit
 
-Angular 1.4.x, JSPM,  TypeScript, Material Starter kit.
+AngularJS • JSPM • TypeScript • Material • Gulp
 
 ### Features 
 * dependency management, bundler - **JSPM**
