@@ -1,8 +1,9 @@
-import 'gulp-ng-recipes/dist/globals.js';
-import 'gulp-ng-recipes/dist/server.js';
-import 'gulp-ng-recipes/dist/typescript.js';
-import 'gulp-ng-recipes/dist/sass.js';
-import 'gulp-ng-recipes/dist/images.js';
-import 'gulp-ng-recipes/dist/offline.js';
-import 'gulp-ng-recipes/dist/build.js';
-import 'gulp-ng-recipes/dist/gpdeploy.js';
+import 'gulp-ng-recipes/dist/globals';
+import 'gulp-ng-recipes/dist/server';
+import 'gulp-ng-recipes/dist/typescript';
+import 'gulp-ng-recipes/dist/sass';
+import 'gulp-ng-recipes/dist/images';
+import 'gulp-ng-recipes/dist/fonts';
+import 'gulp-ng-recipes/dist/offline';
+import 'gulp-ng-recipes/dist/build';
+import 'gulp-ng-recipes/dist/gpdeploy';

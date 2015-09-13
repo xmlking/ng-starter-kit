@@ -1,0 +1,25 @@
+@import './assets/styles/variables';
+
+/* inject:css */
+/* endinject */
+/* inject:scss */
+
+@import './assets/styles/base/base';
+
+@import './assets/styles/layout/header';
+
+@import './assets/styles/layout/layout';
+
+@import './assets/styles/layout/nav';
+
+@import './assets/styles/modules/drawer';
+
+/* endinject */
+
+
+/**
+  * Hide when Angular is not yet loaded and initialized
+  */
+[ng-cloak] {
+  display: none;
+}

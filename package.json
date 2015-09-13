@@ -4,8 +4,31 @@
   "description": "Angular 1.4.x, TypeScript, JSPM,  Material starter kit",
   "main": "gulpfile.babel.js",
   "devDependencies": {
-    "gulp-ng-recipes": "^0.0.13",
-    "gulp-sass": "^2.0.4"
+    "babel-core": "^5.8.24",
+    "browser-sync": "^2.9.3",
+    "browser-sync-spa": "^1.0.3",
+    "config": "^1.16.0",
+    "del": "^2.0.2",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.0.1",
+    "gulp-cached": "^1.1.0",
+    "gulp-gh-pages": "^0.5.2",
+    "gulp-if": "^1.2.5",
+    "gulp-imagemin": "^2.3.0",
+    "gulp-ng-recipes": "^0.1.0",
+    "gulp-replace": "^0.5.4",
+    "gulp-sass": "^2.0.4",
+    "gulp-scss-lint": "^0.3.0",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-tslint": "^3.2.0",
+    "gulp-typescript": "^2.8.2",
+    "gulp-util": "^3.0.6",
+    "http-proxy-middleware": "^0.8.1",
+    "js-yaml": "^3.4.2",
+    "jspm": "^0.16.2",
+    "run-sequence": "^1.1.2",
+    "sw-precache": "^2.0.1",
+    "yargs": "^3.24.0"
   },
   "scripts": {
     "test": "karma test",
@@ -37,32 +60,13 @@
       "angular-aria": "github:angular/bower-angular-aria@^1.4.5",
       "angular-material": "github:angular/bower-material@^0.10.1",
       "angular-mocks": "github:angular/bower-angular-mocks@^1.4.5",
-      "angular-new-router": "npm:angular-new-router@^0.5.3",
+      "angular-ui-router": "github:angular-ui/ui-router@^0.2.15",
       "css": "github:systemjs/plugin-css@^0.1.16",
       "json": "github:systemjs/plugin-json@^0.1.0",
       "text": "github:systemjs/plugin-text@^0.0.2"
     },
     "devDependencies": {
-      "typescript": "npm:typescript@1.5.3"
-    },
-    "overrides": {
-      "npm:angular-new-router@0.5.3": {
-        "main": "dist/router.es5",
-        "format": "es6",
-        "dependencies": {
-          "jspm:angular": "^1.4.5"
-        },
-        "shim": {
-          "dist/router.es5": {
-            "deps": [
-              "angular"
-            ]
-          }
-        }
-      },
-      "npm:a1atscript@0.4.4": {
-        "format": "global"
-      }
+      "typescript": "npm:typescript@^1.6.0-beta"
     }
   }
 }

@@ -1,6 +1,6 @@
 # NG Starter Kit
 
-Angular 1.x, JSPM,  Material Start kit.
+Angular 1.4.x, JSPM,  Typescript, Material Start kit.
 
 ### Features 
 * dependency management, bundler - **JSPM**
@@ -9,6 +9,7 @@ Angular 1.x, JSPM,  Material Start kit.
 * dependency injection - **Angular DI**
 * UI Components - **Material Design**
 * angular2 ES7 decorators with angular 1.4.x - **a1atscript**
+* cascaded configuration for Gulp (environment specific overwrites)
 
 
 To use this:

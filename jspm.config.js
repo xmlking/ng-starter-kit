@@ -15,13 +15,18 @@ System.config({
     "github:*": "jspm_packages/github/*",
     "npm:*": "jspm_packages/npm/*"
   },
-
   packages: {
     "app": {
       "main": "main",
       "defaultExtension": "ts"
+    },
+    "src": {
+      "main": "app/main",
+      "defaultExtension": "ts"
     }
   },
+  buildCSS: true,
+  separateCSS: true,
 
   map: {
     "a1atscript": "npm:a1atscript@0.4.4",
@@ -30,11 +35,14 @@ System.config({
     "angular-aria": "github:angular/bower-angular-aria@1.4.5",
     "angular-material": "github:angular/bower-material@0.10.1",
     "angular-mocks": "github:angular/bower-angular-mocks@1.4.5",
-    "angular-new-router": "npm:angular-new-router@0.5.3",
+    "angular-ui-router": "github:angular-ui/ui-router@0.2.15",
     "css": "github:systemjs/plugin-css@0.1.16",
     "json": "github:systemjs/plugin-json@0.1.0",
     "text": "github:systemjs/plugin-text@0.0.2",
-    "typescript": "npm:typescript@1.5.3",
+    "typescript": "npm:typescript@1.6.0-dev.20150910",
+    "github:angular-ui/ui-router@0.2.15": {
+      "angular": "github:angular/bower-angular@1.4.5"
+    },
     "github:angular/bower-angular-animate@1.4.5": {
       "angular": "github:angular/bower-angular@1.4.5"
     },
@@ -62,9 +70,6 @@ System.config({
     "github:jspm/nodelibs-process@0.1.1": {
       "process": "npm:process@0.10.1"
     },
-    "npm:angular-new-router@0.5.3": {
-      "jspm:angular": "github:angular/bower-angular@1.4.5"
-    },
     "npm:buffer@3.4.3": {
       "base64-js": "npm:base64-js@0.0.8",
       "ieee754": "npm:ieee754@1.1.6",
@@ -76,7 +81,7 @@ System.config({
     "npm:path-browserify@0.0.0": {
       "process": "github:jspm/nodelibs-process@0.1.1"
     },
-    "npm:typescript@1.5.3": {
+    "npm:typescript@1.6.0-dev.20150910": {
       "buffer": "github:jspm/nodelibs-buffer@0.1.0",
       "child_process": "github:jspm/nodelibs-child_process@0.1.0",
       "fs": "github:jspm/nodelibs-fs@0.1.2",

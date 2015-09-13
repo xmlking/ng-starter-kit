@@ -2,9 +2,9 @@ import * as angular from 'angular';
 import 'angular-aria';
 import 'angular-animate';
 import 'angular-material';
-import 'angular-new-router';
+import 'angular-ui-router';
 
-import {AsModule, bootstrap, Component, View, RouteConfig} from 'a1atscript';
+import {AsModule, bootstrap, Component, View} from 'a1atscript';
 
 //import  HomeController from './components/home/HomeController';
 import  DashboardController from './components/dashboard/DashboardController';
@@ -24,11 +24,11 @@ class SubComponent {
 @View({
   template: "<p>Home: Awesome {{home.awesome}}</p><ng-viewport></ng-viewport>"
 })
-@RouteConfig(
-    {
-      path: "/sub", component: SubComponent
-    }
-)
+//@RouteConfig(
+//    {
+//      path: "/sub", component: SubComponent
+//    }
+//)
 class HomeComponent {
   awesome: string;
   constructor() {
@@ -37,7 +37,7 @@ class HomeComponent {
 }
 
 // the AsModule annotation is an extra need to setup Angular's module system on the top level component for now
-@AsModule('AppModule', ['ngAria', 'ngAnimate', 'ngMaterial', 'ngNewRouter', HomeComponent, SubComponent, DashboardController])
+@AsModule('AppModule', ['ngAria', 'ngAnimate', 'ui.router', 'ngMaterial', HomeComponent, SubComponent, DashboardController])
 @Component({
   selector: "app"
 })
@@ -48,12 +48,20 @@ class HomeComponent {
             </ul>
             <ng-viewport><ng-viewport>`
 })
-@RouteConfig({
-  path: "/home", component: HomeComponent
-})
-class App {
+//@RouteConfig({
+//  path: "/home", component: HomeComponent
+//})
+class AppComponent {
 }
 
-bootstrap(App);
+bootstrap(AppComponent);
 
 export default angular.module('AppModule');
+
+
+//https://github.com/martinmicunda/employee-scheduling-ui/tree/master/src/app
+/**
+ * use https://github.com/martinmicunda/employee-scheduling-ui/tree/master/src/app
+ * use options to initiate app module and share it with all
+ *
+ */

@@ -31,6 +31,6 @@
   "files": [
     "typings/tsd.d.ts",
     "typings/app.d.ts",
-    "app/main.ts"
+    "src/app/main.ts"
   ]
 }
