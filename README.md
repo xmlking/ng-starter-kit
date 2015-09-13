@@ -13,7 +13,7 @@ Angular 1.4.x, JSPM,  TypeScript, Material Starter kit.
 
 
 ### Quick start
-> After following (one time setup)[Development-Environment-Setup] instructions below, Clone/Download the repo.
+> After following [one time setup](Development-Environment-Setup) instructions below, Clone/Download the repo.
 
 ```bash
 # clone this repo
