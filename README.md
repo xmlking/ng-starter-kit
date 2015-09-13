@@ -24,7 +24,7 @@ cd ng-starter-kit
 
 # install npm packages
 npm install gulp-ng-recipes --no-optional
-npm `npm install gulp-sass` # or for windows, `install gulp-ruby-sass` 
+npm npm install gulp-sass # or for windows, `install gulp-ruby-sass` 
 npm install
 
 # then open your browser and go to http://localhost:3000
