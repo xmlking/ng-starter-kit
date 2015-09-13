@@ -1,14 +1,14 @@
 # NG Starter Kit
 
-Angular 1.4.x, JSPM,  Typescript, Material Starter kit.
+Angular 1.4.x, JSPM,  TypeScript, Material Starter kit.
 
 ### Features 
 * dependency management, bundler - **JSPM**
-* language - **typescript**
+* language - **TypeScript**
 * script loading - **SystemJS**
 * dependency injection - **Angular DI**
 * UI Components - **Material Design**
-* angular2 ES7 decorators with angular 1.4.x
+* Angular2 ES7 decorators with Angular 1.4.x
 * cascaded configuration for Gulp (environment specific overwrites)
 
 
