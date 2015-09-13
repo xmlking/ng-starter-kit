@@ -13,7 +13,7 @@ Angular 1.4.x, JSPM,  TypeScript, Material Starter kit.
 
 
 ### Quick start
-> Clone/Download the repo and follow the one time setup instructions.
+> After following (one time setup)[Development-Environment-Setup] instructions below, Clone/Download the repo.
 
 ```bash
 # clone this repo
@@ -30,3 +30,15 @@ npm install
 # then open your browser and go to http://localhost:3000
 npm start 
 ```
+
+### Development Environment Setup
+> setup your development environment for front-end development.
+
+#### Required Software
+* Node.js 4.x 
+* Ruby 
+* Ruby Gems:
+  * `gem install scss`
+  * `gem install scss_lint`
+* Install global npm modules use for all projects. 
+  * `npm install -g gulp tsd jspm`

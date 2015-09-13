@@ -1,15 +1,18 @@
 {
   "name": "ng-starter-kit",
   "version": "1.1.0",
-  "description": "Angular 1.4.x, TypeScript, JSPM,  Material starter kit",
+  "description": "Angular 1.4.x, TypeScript, JSPM,  Material Starter Kit",
   "main": "gulpfile.babel.js",
   "devDependencies": {
     "gulp-ng-recipes": "^0.1.0",
     "gulp-sass": "^2.0.4"
   },
   "scripts": {
+    "start": "gulp serve",
     "test": "karma test",
-    "postinstall": "jspm install"
+    "tsd-install": "tsd install && tsd link",
+    "preinstall": "echo warnings are Ok!",
+    "postinstall": "jspm install && npm run tsd-install"
   },
   "repository": {
     "type": "git",
