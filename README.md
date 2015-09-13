@@ -1,6 +1,6 @@
 # NG Starter Kit
 
-AngularJS • JSPM • TypeScript • Material • Gulp
+AngularJS • JSPM • TypeScript • Material • RxJS • JWT
 
 ### Features 
 * dependency management, bundler - **JSPM**
